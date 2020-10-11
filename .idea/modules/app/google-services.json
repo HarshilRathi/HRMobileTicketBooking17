@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "465238934518",
+    "firebase_url": "https://hrmovieticketbooking.firebaseio.com",
+    "project_id": "hrmovieticketbooking",
+    "storage_bucket": "hrmovieticketbooking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465238934518:android:62bc5ff9283cb753b77dd7",
+        "android_client_info": {
+          "package_name": "com.example.mobileticketbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465238934518-426qo0lq9vmk5jshn13eokeocehigb24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobileticketbooking",
+            "certificate_hash": "470ac7a2255181dac4e5bca216f6018875a9fbbd"
+          }
+        },
+        {
+          "client_id": "465238934518-227aunqvoqm03vbjmpq51o5kcregfrrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ9pLPWYIc-QTMgiO14VpsQgkUqvCxroY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465238934518-227aunqvoqm03vbjmpq51o5kcregfrrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

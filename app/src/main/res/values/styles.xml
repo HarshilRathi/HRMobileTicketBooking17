@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBar" parent="Theme.AppCompat.Light" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="movietitlepadding">10dp</dimen>
+    <dimen name="movietitle">15dp</dimen>
+    <dimen name="movietitleHeight">160dp</dimen>
+    <dimen name="movieCoverHeight">160dp</dimen>
+    <dimen name="CardRadius">0dp</dimen>
+    <dimen name="cardmargin">5dp</dimen>
+    <dimen name="userrating">12dp</dimen>
+    <dimen name="userratingpaddingbottom">5dp</dimen>
+    <dimen name="detailbackdropheight">500dp</dimen>
+    <dimen name="layoutmarginleft">10dp</dimen>
+    <dimen name="layoutmargintop">3dp</dimen>
+    <dimen name="layoutmargintop2">10dp</dimen>
+    <dimen name="paddinglayout">16dp</dimen>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+</resources>

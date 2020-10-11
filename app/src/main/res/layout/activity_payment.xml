@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment"
+    android:background="@drawable/background">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Mode Of Payment"
+    android:id="@+id/paymenttext"
+    android:textAlignment="center"
+    android:layout_margin="@dimen/movietitle"
+    android:textSize="32dp"
+    android:textColor="@color/white"
+    />
+
+    <RadioGroup
+        android:id="@+id/Moviepayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paymenttext"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/layout_background">
+
+        <RadioButton
+            android:id="@+id/CreditCard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:checked="false"
+            android:text="Credit Card"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/DebitCard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:checked="false"
+            android:text="DebitCard"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/UPI"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:checked="false"
+            android:text="UPI"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/OnlineBanking"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:checked="false"
+            android:text="OnlineBanking"
+            android:textSize="20dp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/button_background"
+        android:text="Make Payment"
+        android:textColor="@color/white"
+        android:id="@+id/pay"/>
+
+    </RelativeLayout>

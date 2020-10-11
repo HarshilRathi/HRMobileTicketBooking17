@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MobileTicketBooking</string>
+    <string name="action_Setting">Settings</string>
+    <string name="name_movie">Movie Title</string>
+    <string name="Movie_details">Movie details</string>
+    <string name="Plot">Plot Synopsis</string>
+    <string name="rating">Ratings</string>
+    <string name="user_rating">User Ratings</string>
+    <string name="release">Release Date</string>
+    <string name="pref_short_order_label">Sort Order</string>
+    <string name="pref_short_order_Key">sortOrder</string>
+    <string name="pref_most_popular">Most Popular</string>
+    <string name="pref_Highest_rated">Highest Rated</string>
+    <string name="title_activity_splash_screen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="book_seat">Book Seat</string>
+</resources>
